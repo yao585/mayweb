@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园购物登录注册系统</title>
+    <!--引入 css 和图标-->
+    <link rel="stylesheet" href="/myweb/asstes/style.css">
+    <link rel="stylesheet" href="/myweb/asstes/sucai/iconfont.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <!--注册-->
+            <form>
+                <h1>用户注册</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="iconfont icon-ziyuan56"></i></a>
+                    <a href="#" class="social"><i class="iconfont icon-ziyuan55"></i></a>
+                    <a href="#" class="social"><i class="iconfont icon-zhifubaozhanghao"></i></a>
+                    <a href="#" class="social"><i class="iconfont icon-ziyuan60"></i></a>
+                </div>
+                <span>您可以使用以上方式注册一个您的账号</span>
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码">
+                <input type="email" placeholder="邮箱">
+                <button id="send_code">发送验证码</button>
+                <input type="text" placeholder="验证码">
+                <button>注册</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <!--登录-->
+            <form>
+                <h1>用户登录</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="iconfont icon-ziyuan56"></i></a>
+                    <a href="#" class="social"><i class="iconfont icon-ziyuan55"></i></a>
+                    <a href="#" class="social"><i class="iconfont icon-zhifubaozhanghao"></i></a>
+                    <a href="#" class="social"><i class="iconfont icon-ziyuan60"></i></a>
+                </div>
+                <span>您可以使用以上方式登录您的账号</span>
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码">
+                <a href="#">忘记密码</a>
+                <button class="SignIn">登录</button>
+            </form>
+        </div>
+        <!--侧边栏-->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>已有账号？</h1>
+                    <p>如果您已经有一个账号，请登录您的账号。</p>
+                    <button class="ghost" id="signInBtn">登录</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>欢迎！</h1>
+                    <p>如果您还没有账号，请注册一个账号。</p>
+                    <button class="ghost" id="signUpBtn">注册</button>
+                </div>
+
+        </div>
+    </div>
+</body>
+<script src="/myweb/index.js"></script>
+</html>
