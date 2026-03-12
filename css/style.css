@@ -181,7 +181,7 @@ body {
   color: white;
 }
 
-/* 英雄区域 */
+/* 主区域 */
 .new-main {
   margin-top: 80px;
 }
@@ -1098,3 +1098,4 @@ html {
 .mb-3 {
   margin-bottom: var(--spacing-md);
 }
+
