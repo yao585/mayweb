@@ -1098,3 +1098,9 @@ html {
 .mb-3 {
   margin-bottom: var(--spacing-md);
 }
+
+/* 在style.css末尾添加 */
+.gameFeatures-card {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
